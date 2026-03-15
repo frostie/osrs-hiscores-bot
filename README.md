@@ -3,7 +3,7 @@ A Discord bot that displays OSRS overall hiscores of specific players when comma
 
 ## How to configure the bot
 
-Note: This assumes you've already configured and authorized the bot to join your Discord server. [Read more about creating Discord bots](https://docs.discord.com/developers/platform/bots).
+Note: This assumes you've already created and authorized your bot to join your Discord server. [Read more about creating Discord bots](https://docs.discord.com/developers/platform/bots).
 
 1. Add your bot's Discord token to `DISCORD_TOKEN` in `config.json`.
 1. Add the player names to `config.json`.
