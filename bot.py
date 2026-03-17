@@ -59,10 +59,10 @@ async def hiscores_command(ctx):
             stats = await fetch_hiscores(session, player)
             results.append(stats)
 
-    # Sort results: valid entries first (sorted by XP descending), then errors
+    # Sort results: valid entries first (sorted by Level descending), then errors
     results.sort(key=lambda x: (
         0 if "error" not in x else 1,
-        -x.get("xp", 0)
+        -x.get("level", 0)
     ))
 
     embed = discord.Embed(title="OSRS Overall Hiscores", color=discord.Color.green())
