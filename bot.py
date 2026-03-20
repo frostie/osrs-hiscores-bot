@@ -89,7 +89,7 @@ async def hiscores_command(ctx):
         -x.get("level", 0)
     ))
 
-    embed = discord.Embed(title="OSRS Googlers Overall Hiscores", color=discord.Color.green())
+    embed = discord.Embed(title="OSRS Overall Hiscores", color=discord.Color.green())
     
     for i, stat in enumerate(results, start=1):
         if "error" in stat:
