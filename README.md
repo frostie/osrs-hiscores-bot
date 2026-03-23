@@ -1,5 +1,5 @@
 # osrs-hiscores-bot
-A Discord bot that displays OSRS overall hiscores of specific players when commanded to with `!hiscores` command, and 24 hour updates with the `!updates` command.
+A Discord bot that displays OSRS overall hiscores of specific players when commanded to with `!hiscores` command, and shares live level updates as they are registered in the OSRS hiscores. You can also invoke the `!updates` command to get all level updates of the last 24 hours.
 
 ## How to configure the bot
 
