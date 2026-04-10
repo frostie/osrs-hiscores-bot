@@ -4,5 +4,8 @@
     "Lynx Titan",
     "Zezima",
     "Papyrus"
-  ]
+  ],
+  "AUTO_UPDATE_CHANNEL_ID": "[CHANNEL_ID]",
+  "WEEKLY_CHANNEL_ID": "[CHANNEL_ID]",
+  "POLLING_INTERVAL_MINUTES": 5
 }
